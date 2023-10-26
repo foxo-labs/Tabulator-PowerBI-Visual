@@ -8,7 +8,7 @@ Welcome to Foxolabs, your trusted partner in strategy and technology solutions! 
 
 ## Who We Are
 
-Foxolabs is a global strategy and technology firm with a presence in various regions, including the USA, UK, Europe, Middle East, and India, with offices in Chennai, Hyderabad, and Mumbai. If you have questions, comments, or concerns about our Privacy Policy, please reach out to us at [Your Contact Email].
+Foxolabs is a global strategy and technology firm with a presence in various regions, including the USA, UK, Europe, Middle East, and India, with offices in Chennai, Hyderabad, and Mumbai. If you have questions, comments, or concerns about our Privacy Policy, please reach out to us at [inquiry@foxolabs.com].
 
 ## What Data We Collect
 

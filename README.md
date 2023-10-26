@@ -69,9 +69,11 @@ The "Column Options" property lets you specify settings for individual columns i
 ## 5. Frequently Asked Questions (FAQs)
 
 **Q:** How do I change the appearance of my table?
+
 **A:** You can customize the appearance by adjusting the "Tabulator Options" and "Column Options" properties in the formatting pane.
 
 **Q:** Can I use this visual with my existing Power BI reports?
+
 **A:** Yes, you can add the Tabulator Custom Visual to your existing reports by importing the .pbiviz file.
 
 ## 6. Support

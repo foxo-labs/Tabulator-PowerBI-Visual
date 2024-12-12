@@ -78,7 +78,7 @@ The "Column Options" property lets you specify settings for individual columns i
 
 ## 6. Support
 
-For any questions or issues, please contact our support team at [inquiry@foxolabs.com](mailto:inquiry@foxolabs.com). We are here to assist you.
+For any questions or issues, please contact our support team at [inquiry@foxolabs.com](mailto:inquiry@tekvo.io). We are here to assist you.
 
 
 

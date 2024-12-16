@@ -53,6 +53,7 @@ The "Tabulator Options" property allows you to pass a JSON object with settings 
     "sortable": true
 }
 ```
+The default layout is set to fitDataTable, which ensures that the table adjusts automatically to fit the available space. This setting can be customized to other layout options such as fitDataStretch or fitDataFill, depending on your requirements. For more examples and further customization, visit this link[https://appsource.microsoft.com/en-us/product/power-bi-visuals/foxolabsopcpvtltd1698255416379.tabulator-custom-visual?tab=overview].
 
 ### Column Options
 
@@ -66,6 +67,20 @@ The "Column Options" property lets you specify settings for individual columns i
     }
 }
 ```
+
+### Adding Calculated Columns
+Calculated columns allow you to create new data columns derived from existing data within your dataset. You can define calculated columns in the "Calculated Columns" property in the formatting pane. Here's an example of how to add a calculated column:
+```json
+{
+  "TotalPrice": "function(rowData) { return rowData['UnitPrice'] * rowData['Quantity']; }"
+}
+
+```
+In this example, a new column called TotalPrice is calculated based on existing columns UnitPrice and Quantity. You can write your own JavaScript functions to define more complex calculated columns as needed.
+
+Once the calculated columns are defined, they will be automatically included in the Tabulator table with the same functionality as regular columns. The calculation is performed dynamically based on the row data, and any updates to the underlying data will automatically update the calculated columns.
+
+
 ## 5. Frequently Asked Questions (FAQs)
 
 **Q:** How do I change the appearance of my table?

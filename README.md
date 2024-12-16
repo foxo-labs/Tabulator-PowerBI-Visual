@@ -53,7 +53,7 @@ The "Tabulator Options" property allows you to pass a JSON object with settings 
     "sortable": true
 }
 ```
-The default layout is set to fitDataTable, which ensures that the table adjusts automatically to fit the available space. This setting can be customized to other layout options such as fitDataStretch or fitDataFill, depending on your requirements. For more examples and further customization, visit this link[https://appsource.microsoft.com/en-us/product/power-bi-visuals/foxolabsopcpvtltd1698255416379.tabulator-custom-visual?tab=overview].
+The default layout is set to fitDataTable, which ensures that the table adjusts automatically to fit the available space. This setting can be customized to other layout options such as fitDataStretch or fitDataFill, depending on your requirements. For more examples and further customization, visit this [link](https://appsource.microsoft.com/en-us/product/power-bi-visuals/foxolabsopcpvtltd1698255416379.tabulator-custom-visual?tab=overview).
 
 ### Column Options
 

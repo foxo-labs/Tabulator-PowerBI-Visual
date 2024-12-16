@@ -5,8 +5,9 @@
 2. [Installation](#2-installation)
 3. [Getting Started](#3-getting-started)
 4. [Customization](#4-customization)
-5. [Frequently Asked Questions](#5-frequently-asked-questions)
-6. [Support](#6-support)
+5. [Features](#5-features)
+6. [Frequently Asked Questions](#6-frequently-asked-questions)
+7. [Support](#7-support)
 
 ## 1. Introduction
 
@@ -80,8 +81,11 @@ In this example, a new column called TotalPrice is calculated based on existing 
 
 Once the calculated columns are defined, they will be automatically included in the Tabulator table with the same functionality as regular columns. The calculation is performed dynamically based on the row data, and any updates to the underlying data will automatically update the calculated columns.
 
+## 5. Features
 
-## 5. Frequently Asked Questions (FAQs)
+For a detailed overview of the features, please refer to the [Features Documentation](https://github.com/foxo-labs/Tabulator-PowerBI-Visual/blob/main/Features.md).
+
+## 6. Frequently Asked Questions (FAQs)
 
 **Q:** How do I change the appearance of my table?
 
@@ -91,7 +95,7 @@ Once the calculated columns are defined, they will be automatically included in 
 
 **A:** Yes, you can add the Tabulator Custom Visual to your existing reports by importing the .pbiviz file.
 
-## 6. Support
+## 7. Support
 
 For any questions or issues, please contact our support team at [inquiry@tekvo.io](mailto:inquiry@tekvo.io). We are here to assist you.
 

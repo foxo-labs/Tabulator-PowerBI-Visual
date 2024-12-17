@@ -39,9 +39,29 @@ Example for a calculated column:
 
 Implement custom sorting behavior, such as sorting by date, using built-in or user-defined functions. This allows for more sophisticated data organization within the table.
 
+Please refer to the documentation [here](Features/Sorting.md)
+
 ## 5. Context Menu
 
-Right-click context menu functionality is available for row and cell selection, offering additional operations and interactions that are customizable.
+The Context Menu provides right-click functionality for rows and cells within the Tabulator table. It allows users to perform a variety of actions such as copying values, rows, and clearing selections or filters. These operations can be accessed by right-clicking on the table.
+![Context Menu](ContextMenu.png)
+
+### Key Features:
+    1. Row and Cell Selection: Right-click functionality is available on both rows and cells.
+    2. Copy Operations: The context menu provides options to copy values, rows, rows with headers, and selected rows.
+    3. Clear Selections and Filters: Options are available to clear selections and filters applied to the table.
+    4. Power BI Context Menu: A custom context menu is available for Power BI-specific operations.
+
+When a user right-clicks on a cell or row, the following options are available in the context menu:
+
+    1. Copy Value: Copies the value of the selected cell to the clipboard.
+    2. Copy Row: Copies the entire row data in CSV format to the clipboard.
+    3. Copy Row with Header: Copies the row data along with column headers in CSV format to the clipboard.
+    4. Copy Table: Copies the entire table data (including headers) to the clipboard in CSV format.
+    5. Copy Selected Rows: Copies the selected rows' data (including headers) to the clipboard.
+    6. Clear Selections: Clears all selected rows.
+    7. Clear All Filters: Clears all applied filters from the table.
+    8. Power BI Menu: Opens a default Power BI context menu for additional options.
 
 ## 6. Cell Tooltips
 
@@ -50,6 +70,7 @@ Display additional data in tooltips on each table cell. This provides more infor
 ## 7. Excel-Like Filtering
 
 Include filter options directly within the table header. This functionality mimics Excel's filtering behavior, making it easy for users to filter rows based on specific values.
+
 
 ## 8. Dynamic Row Selection
 

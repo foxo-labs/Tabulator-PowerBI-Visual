@@ -56,6 +56,21 @@ The "Tabulator Options" property allows you to pass a JSON object with settings 
 ```
 The default layout is set to fitDataTable, which ensures that the table adjusts automatically to fit the available space. This setting can be customized to other layout options such as fitDataStretch or fitDataFill, depending on your requirements. For more examples and further customization, visit this [link](https://appsource.microsoft.com/en-us/product/power-bi-visuals/foxolabsopcpvtltd1698255416379.tabulator-custom-visual?tab=overview).
 
+Tabulator documentation provides general table-level settings like:
+```javascript
+var table = new Tabulator("#example-table", {
+    height: "100%", // Sets the table height to 100% of its container
+});
+```
+
+When configuring the Tabulator Custom Visual in Power BI, this setting would appear as below under **Options** in Tabulator Options:
+```json
+{
+  "height": "100%"
+}
+```
+
+
 ### Column Options
 
 The "Column Options" property lets you specify settings for individual columns in the Tabulator table, such as column width, responsiveness, and more. Here's an example:
@@ -69,13 +84,41 @@ The "Column Options" property lets you specify settings for individual columns i
 }
 ```
 
+Tabulator documentation provides general column-level settings like:
+```javascript
+var table = new Tabulator("#example-table", {
+    layout:"fitColumns",
+    columns:[
+        {title:"Name", field:"name", width:100}, //column has a fixed width of 100px;
+        {title:"Age", field:"age", widthGrow:1}, //column will be allocated 1/5 of the remaining space
+        {title:"Color", field:"color", widthGrow:3}, //column will be allocated 3/5 of the remaining space
+        {title:"location", field:"location"}, // column has a default widthGrow of 1 and will be allocated 1/5 of the remaining space
+    ]
+});
+```
+In the Power BI Tabulator Custom Visual, these settings are written as Column Options. The format is:
+```json
+{
+  "Name": {
+    "width": 100
+  },
+  "Age": {
+    "widthGrow": 1
+  },
+  "Color": {
+    "widthGrow": 3
+  },
+  // No configuration for Location as it uses default settings, and 'title' and 'field' properties are omitted in Column Options
+}
+```
+
+
 ### Adding Calculated Columns
 Calculated columns allow you to create new data columns derived from existing data within your dataset. You can define calculated columns in the "Calculated Columns" property in the formatting pane. Here's an example of how to add a calculated column:
 ```json
 {
   "TotalPrice": "function(rowData) { return rowData['UnitPrice'] * rowData['Quantity']; }"
 }
-
 ```
 In this example, a new column called TotalPrice is calculated based on existing columns UnitPrice and Quantity. You can write your own JavaScript functions to define more complex calculated columns as needed.
 

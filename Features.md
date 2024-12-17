@@ -1,11 +1,3 @@
-
----
-
-### Separate `features.md`
-
-This file will include all the details about the features of the Tabulator Custom Visual.
-
-```markdown
 # Tabulator-Custom-Visual Features
 
 ## Table of Contents
